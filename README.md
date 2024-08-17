@@ -44,118 +44,93 @@ To prepare for a DevOps Engineer role with a focus on Git and GitHub, you should
 
 ### 3. **Remote Repositories**
 
-#### 3.1. **Working with Remotes**
+#### [3.1. **Working with Remotes**](./03-Remote-Repositories/3.1-Working-with-Remotes.md)
 
 - Adding remote repositories (`git remote add`)
 - Removing and renaming remotes (`git remote remove`, `git remote rename`)
 
-#### 3.2. **Fetching and Pulling**
+#### [3.2. **Fetching and Pulling**](./03-Remote-Repositories/3.2-Fetching-Pulling.md)
 
 - Fetching changes from remote (`git fetch`)
 - Pulling changes from remote (`git pull`)
 
-#### 3.3. **Pushing**
+#### [3.3. **Pushing**](./03-Remote-Repositories/3.3-Pushing.md)
 
 - Pushing changes to remote (`git push`)
 - Force pushing (`git push --force`)
 
 ### 4. **Collaboration and Workflow**
 
-- **Pull Requests (PR)**
+#### [4.1. **Pull Requests (PR)**](./04-Collaboration-Workflow/4.1-Pull-Requests.md)
 
-  - Creating pull requests on GitHub
-  - Reviewing and merging pull requests
-  - Resolving conflicts in PRs
+- Creating pull requests on GitHub
+- Reviewing and merging pull requests
+- Resolving conflicts in PRs
 
-- **Code Reviews**
+#### [4.2. **Code Reviews**](./04-Collaboration-Workflow/4.2-Code-Reviews.md)
 
-  - Performing code reviews on GitHub
-  - Using GitHub review tools and comments
+- Performing code reviews on GitHub
+- Using GitHub review tools and comments
 
-- **Collaboration Workflow**
-  - Gitflow workflow
-  - Forking workflow
-  - Feature branching workflow
+#### [4.3. **Collaboration Workflow / Straregy**](./04-Collaboration-Workflow/4.3-Collaboration-Workflow-Straregy.md)
+
+- Gitflow workflow
+- Forking workflow
+- Feature branching workflow
 
 ### 5. **Advanced Git Concepts**
 
-- **Rebasing**
+#### [5.1. **Rebasing**](./05-Advanced-Git-Concepts/5.1-Rebasing.md)
 
-  - Interactive rebasing (`git rebase -i`)
-  - Squashing commits
-  - Resolving rebase conflicts
+- Interactive rebasing (`git rebase -i`)
+- Squashing commits
+- Resolving rebase conflicts
 
-- **Cherry-picking**
+#### [5.2. **Cherry-picking**](./05-Advanced-Git-Concepts/5.2-Cherry-picking.md)
 
-  - Cherry-picking commits (`git cherry-pick`)
+- Cherry-picking commits (`git cherry-pick`)
 
-- **Stashing**
+#### [5.3. **Stashing**](./05-Advanced-Git-Concepts/5.3-Stashing.md)
 
-  - Stashing changes (`git stash`)
-  - Applying stashed changes (`git stash apply`)
+- Stashing changes (`git stash`)
+- Applying stashed changes (`git stash apply`)
 
-- **Reflog**
-  - Understanding and using Git reflog (`git reflog`)
+#### [5.4. **Reflog**](./05-Advanced-Git-Concepts/5.4-Reflog.md)
 
-### 6. **GitHub Specific Features**
+- Understanding and using Git reflog (`git reflog`)
 
-- **GitHub Actions**
+### 6. **Security and Best Practices**
 
-  - Understanding GitHub Actions and workflows
-  - Creating and managing workflows
+#### [6.1. **SSH and GPG**](./06-Security-and-Best-Practices/6.1-SSH-GPG.md)
 
-- **GitHub Issues**
+- Configuring SSH keys for GitHub
+- Signing commits with GPG
 
-  - Creating and managing issues
-  - Using labels, milestones, and projects
+#### [6.2. **Best Practices**](./06-Security-and-Best-Practices/6.2-Best-Practices.md)
 
-- **GitHub Projects**
+- Writing good commit messages
+- Keeping a clean commit history
+- Avoiding common pitfalls (e.g., committing sensitive information)
 
-  - Managing projects using GitHub Projects
+### 7. **Backup and Recovery**
 
-- **GitHub Wiki**
-  - Creating and managing a GitHub Wiki
+#### [7.1. **Backup Strategies**](./07-Backup-and-Recovery/7.1-Backup-Strategies.md)
 
-### 7. **Security and Best Practices**
+- Strategies for backing up Git repositories
 
-- **SSH and GPG**
+#### [7.2. **Recovery**](./07-Backup-and-Recovery/7.2-Recovery.md)
 
-  - Configuring SSH keys for GitHub
-  - Signing commits with GPG
+- Recovering lost commits and branches
+- Using reflog and stash for recovery
 
-- **Best Practices**
-  - Writing good commit messages
-  - Keeping a clean commit history
-  - Avoiding common pitfalls (e.g., committing sensitive information)
+### 8. **Git and GitHub for DevOps**
 
-### 8. **Tools and Integrations**
+#### [8.1. **Infrastructure as Code (IaC)**](./08-Git-and-GitHub-for-DevOps/8.1-Infrastructure-as-Code.md)
 
-- **Git Tools**
+- Versioning infrastructure code with Git
+- Using GitHub for IaC repositories
 
-  - GUI tools for Git (e.g., GitKraken, Sourcetree)
-  - Using Git in IDEs (e.g., VSCode, IntelliJ)
+#### [8.2. **Monitoring and Logging**](./08-Git-and-GitHub-for-DevOps/8.2-Monitoring-Logging.md)
 
-- **CI/CD Integrations**
-  - Integrating GitHub with CI/CD tools (e.g., Jenkins, Travis CI)
-  - Automating deployments with GitHub Actions
-
-### 9. **Backup and Recovery**
-
-- **Backup Strategies**
-
-  - Strategies for backing up Git repositories
-
-- **Recovery**
-  - Recovering lost commits and branches
-  - Using reflog and stash for recovery
-
-### 10. **Git and GitHub for DevOps**
-
-- **Infrastructure as Code (IaC)**
-
-  - Versioning infrastructure code with Git
-  - Using GitHub for IaC repositories
-
-- **Monitoring and Logging**
-  - Setting up webhooks for monitoring repository events
-  - Integrating GitHub with monitoring tools
+- Setting up webhooks for monitoring repository events
+- Integrating GitHub with monitoring tools
